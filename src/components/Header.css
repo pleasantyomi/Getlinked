@@ -1,0 +1,13 @@
+.hideMenuNav{
+    display: none;
+}
+
+.showMenuNav{
+    background-color: #150E28;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    z-index: 10px;
+    overflow-y: hidden;
+}
