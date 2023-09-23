@@ -3,6 +3,9 @@ import facebook from '../assets/vector-2.png'
 import x from '../assets/vector-1.png'
 import linkedin from '../assets/ri_linkedin-fill.png'
 import instagram from '../assets/vector.png'
+import star1 from '../assets/sata gra.png'
+import star2 from '../assets/star pu.png'
+import star3 from '../assets/star.png'
 import { useState, useEffect } from "react";
 
 const Contact = () => {
@@ -76,7 +79,7 @@ const Contact = () => {
         <div>
             <div>
                 <div className="flex items-center justify-between w-screen h-screen px-20 text-sm">
-                    <div className="px-20 pl-20">
+                    <div className="relative px-20 pl-20">
                         <h1 className="font-bold text-tetiary text-2xl pb-8 ">Get in touch</h1>
                         <p className="grid leading-none pb-5">
                             <span>Contact</span>

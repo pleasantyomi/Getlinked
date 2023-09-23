@@ -1,6 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import axios from 'axios';
 import image from  '../assets/3d-graphic-designer-showing-thumbs-up-png 1 (1).png'
+import star1 from '../assets/sata gra.png'
+import star2 from '../assets/star pu.png'
+import star3 from '../assets/star.png'
 import { useState, useEffect } from "react";
 
 /* Gets Category from Api */
@@ -86,11 +89,15 @@ import { useState, useEffect } from "react";
         <div>
             <div>
                 <div className="flex items-center  w-screen h-screen px-20">
-                    <div className="w-auto h-[80vh]">
+                    <div className="relative w-auto h-[80vh]">
+                        <img className="absolute left-[4rem] top-[2rem] w-5 h-auto" src={star1} />
+                        <img className="absolute bottom-[4rem] right-[5rem] w-5 h-auto" src={star2} />
+                        <img className="absolute bottom-0 left-[7rem] w-5 h-auto" src={star3} />
                         <img src={image}/>
                     </div>
 
-                    <div className="bg-tetiary bg-opacity-[12%] shadow-sm h-fit w-6/12 mr-20 py-10 px-14 rounded-lg">
+                    <div className="relative bg-tetiary bg-opacity-[12%] shadow-sm h-fit w-6/12 mr-20 py-10 px-14 rounded-lg">
+                        <img className="absolute w-5 h-auto top-[1rem] right-[10rem]" src={star3}/>
                         <h1 className="text-xl text-tetiary font-semibold pb-5">Register</h1>
                         <p className="pb-2 text-sm">
                             <span>Be a part of this movement</span>
@@ -168,12 +175,9 @@ import { useState, useEffect } from "react";
                             </div>
                             <button type='submit' className="block w-full mt-5 text-white font-semibold bg-gradient-to-l from-secondary to-tetiary px-10 py-2 rounded-sm">Register Now</button>
                         </div>
-
-                        
                         </form>
 
-
-                        
+                        <img className="absolute w-2 h-auto bottom-[-0.5rem] right-[6rem]" src={star3}/>
                     </div>
                 </div>
             </div>
