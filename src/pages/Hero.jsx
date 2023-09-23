@@ -27,7 +27,7 @@ const Hero = () => {
 
                     <p className="text-base w-9/12 lg:mt-5 mt-3 text-center ml-auto mr-auto block lg:text-left lg:ml-0 lg:mr-0">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
 
-                    <button className="lg:mt-10 mt-4 ml-auto mr-auto lg:ml-0 lg:mr-0 block text-white font-semibold bg-gradient-to-r from-gradient1 from-0% via-gradient2 via-[56.42%]  to-gradient4 px-10 to-100% py-2 rounded-sm">Register</button>
+                    <a href="/Register" className="lg:mt-10 mt-4 ml-auto mr-auto lg:ml-0 lg:mr-0 block text-white font-semibold bg-gradient-to-r from-gradient1 from-0% via-gradient2 via-[56.42%]  to-gradient4 px-10 to-100% py-2 rounded-sm">Register</a>
 
                     <p className="text-[40px] font-primaryText lg:mt-20 mt-5 l-auto mr-auto lg:ml-0 lg:mr-0 text-center lg:text-left ">
                         <span className="pr-4">00<span className="text-sm">H</span></span>
