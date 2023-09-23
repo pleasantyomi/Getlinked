@@ -20,11 +20,11 @@ const Header = () => {
                     <a>Timeline</a>
                     <a>Overview</a>
                     <a>FAQs</a>
-                    <a>Contact</a>
+                    <a href="/Contact">Contact</a>
                 </div>
  
                 <div>
-                   <button className="hidden lg:block text-white font-semibold bg-gradient-to-r from-gradient1 from-0% via-gradient2 via-[56.42%]  to-gradient4 px-10 to-100% py-2 rounded-md">Register</button>
+                   <a href="/Register"><button className="hidden lg:block text-white font-semibold bg-gradient-to-r from-gradient1 from-0% via-gradient2 via-[56.42%]  to-gradient4 px-10 to-100% py-2 rounded-md">Register</button></a>
                 </div>
 
                 <button onClick={()=> isOPen(prev => !prev)} className="lg:hidden grid gap-1 relative">
@@ -47,8 +47,8 @@ const Header = () => {
                         <a>Timeline</a>
                         <a>Overview</a>
                         <a>FAQs</a>
-                        <a>Contact</a>
-                        <button className="block w-fit text-white font-semibold bg-gradient-to-l from-secondary to-tetiary px-10 py-2 rounded-sm">Register</button>
+                        <a href="/Contact">Contact</a>
+                        <a href="/Register"><button className="block w-fit text-white font-semibold bg-gradient-to-l from-secondary to-tetiary px-10 py-2 rounded-sm">Register</button></a>
                     </div>
                 </div>
             </div>
