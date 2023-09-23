@@ -2,7 +2,7 @@ import axios from 'axios';
 import facebook from '../assets/facebook.png'
 import x from '../assets/x.png'
 import linkedin from '../assets/ri_linkedin-fill.png'
-import instagram from '../assets/vector.png'
+import instagram from '../assets/ig.png'
 import star1 from '../assets/satagra.png'
 import star2 from '../assets/starpu.png'
 import star3 from '../assets/star.png'

@@ -4,7 +4,7 @@ import metrix from '../assets/metrix1.png'
 import chain from '../assets/chain-9365116-7621444.png'
 import creative from '../assets/Creative1.png'
 import spark from '../assets/1f4a5.png'
-import line from '../assets/Vector4.png'
+import line from '../assets/line.png'
 import man from '../assets/man-wearing-smart-glasses-touching-virtual-screen1.png'
 import world from '../assets/Image1.png'
 

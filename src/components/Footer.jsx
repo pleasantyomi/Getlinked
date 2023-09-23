@@ -1,8 +1,8 @@
 import facebook from '../assets/facebook.png'
 import x from '../assets/x.png'
 import linkedin from '../assets/ri_linkedin-fill.png'
-import instagram from '../assets/vector.png'
-import location from '../assets/vector(2).png'
+import instagram from '../assets/ig.png'
+import location from '../assets/location.png'
 import contact from '../assets/Group.png'
 
 const Footer = () => {
