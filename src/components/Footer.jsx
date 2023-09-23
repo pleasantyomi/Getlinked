@@ -2,7 +2,7 @@ import facebook from '../assets/vector-2.png'
 import x from '../assets/vector-1.png'
 import linkedin from '../assets/ri_linkedin-fill.png'
 import instagram from '../assets/vector.png'
-import location from '../assets/vector (2).png'
+import location from '../assets/vector(2).png'
 import contact from '../assets/Group.png'
 
 const Footer = () => {
