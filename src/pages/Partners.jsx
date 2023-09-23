@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import liberty from '../assets/Libertycompanylogowhite.png'
 import playbox from '../assets/Paybox.png'
-import winwise from '../assets/WinwiselogoWhitecolour 1.png'
+import winwise from '../assets/WinwiselogoWhitecolour1.png'
 import wisper from '../assets/wisperlogowhite.png'
 import liberty1 from '../assets/Libertycompanylogowhitecolour.png'
 

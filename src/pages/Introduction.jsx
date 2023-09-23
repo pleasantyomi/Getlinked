@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import image from '../assets/The big idea.png'
+import image from '../assets/Thebigidea.png'
 
 const Introduction = () => {
     return ( 

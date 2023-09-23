@@ -1,6 +1,6 @@
 import "./Header.css"
 import { useState } from "react";
-import close from '../assets/Vector(3).png'
+import close from '../assets/close.png'
 
 const Header = () => {
     const [open, isOPen] = useState(false)
