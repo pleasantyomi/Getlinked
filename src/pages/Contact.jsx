@@ -11,7 +11,7 @@ const Contact = () => {
         email: '',
         phone_number: '',
         first_name: '',
-        message: 0,
+        message: '',
     });
 
     /* Success message state */
