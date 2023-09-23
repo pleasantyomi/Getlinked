@@ -102,8 +102,8 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <form onSubmit={handleSubmit}>
-                        <div className="bg-tetiary bg-opacity-[12%] h-fit w-5/12 mr-20 py-10 px-14 rounded-lg">
+                    <form  className="bg-tetiary bg-opacity-[12%] h-fit w-5/12 mr-20 py-10 px-14 rounded-lg" onSubmit={handleSubmit}>
+                        <div>
                             <h1 className="grid text-xl text-tetiary font-semibold pb-5">
                                 <span>Questions or need assistance?</span>
                                 <span>Let us know  about it!</span>

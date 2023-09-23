@@ -161,11 +161,15 @@ import { useState, useEffect } from "react";
                             }
                             
                         <p className="text-[10px] mt-5 text-tetiary pb-3">Please review your registration details before submitting</p>
-                        <div className="flex gap-1 items-center">
-                            <input type="checkbox" name='privacy_poclicy_accepted' checked={formData.privacy_policy_accepted} onChange={handleInput} required/>
-                            <label className="text-xs">I agreed with the event terms and conditions and privacy policy</label>
+                        <div>
+                            <div className="flex gap-1 items-center">
+                               <input type="checkbox" name='privacy_poclicy_accepted' checked={formData.privacy_policy_accepted} onChange={handleInput} required/>
+                               <label className="text-xs">I agreed with the event terms and conditions and privacy policy</label>
+                            </div>
                             <button type='submit' className="block w-full mt-5 text-white font-semibold bg-gradient-to-l from-secondary to-tetiary px-10 py-2 rounded-sm">Register Now</button>
                         </div>
+
+                        
                         </form>
 
 

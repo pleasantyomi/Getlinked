@@ -10,10 +10,10 @@ const Header = () => {
         <div className="w-screen">
             <div className="flex justify-between items-center lg:px-20 px-10 pt-5">
                 <div className="mr-44">
-                    <h1 className="font-bold text-[24px] text-secondaryText">
+                    <a href="/" className="font-bold text-[24px] text-secondaryText">
                         <span className="text-white">get</span>
                         <span className="text-tetiary">linked</span>
-                    </h1>
+                    </a>
                 </div>
 
                 <div className="text-white hidden lg:flex gap-5">
