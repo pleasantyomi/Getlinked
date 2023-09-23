@@ -3,9 +3,10 @@ import facebook from '../assets/vector-2.png'
 import x from '../assets/vector-1.png'
 import linkedin from '../assets/ri_linkedin-fill.png'
 import instagram from '../assets/vector.png'
-import star1 from '../assets/sata gra.png'
-import star2 from '../assets/star pu.png'
+import star1 from '../assets/satagra.png'
+import star2 from '../assets/starpu.png'
 import star3 from '../assets/star.png'
+import star4 from '../assets/staroutlin.png'
 import { useState, useEffect } from "react";
 
 const Contact = () => {
@@ -80,6 +81,8 @@ const Contact = () => {
             <div>
                 <div className="flex items-center justify-between w-screen h-screen px-20 text-sm">
                     <div className="relative px-20 pl-20">
+                        <img className="absolute top-[-8rem] left-[6rem] w-5-h-auto" src={star1}/>
+                        <img className="absolute w-5 h-auto left-[30rem] top-[5rem]" src={star4}/>
                         <h1 className="font-bold text-tetiary text-2xl pb-8 ">Get in touch</h1>
                         <p className="grid leading-none pb-5">
                             <span>Contact</span>
@@ -105,7 +108,8 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <form  className="bg-tetiary bg-opacity-[12%] h-fit w-5/12 mr-20 py-10 px-14 rounded-lg" onSubmit={handleSubmit}>
+                    <form  className="relative bg-tetiary bg-opacity-[12%] h-fit w-5/12 mr-20 py-10 px-14 rounded-lg" onSubmit={handleSubmit}>
+                        <img className="absolute top-[-4rem] w-5 h-auto right-[2rem]" src={star3} />
                         <div>
                             <h1 className="grid text-xl text-tetiary font-semibold pb-5">
                                 <span>Questions or need assistance?</span>
@@ -131,6 +135,9 @@ const Contact = () => {
 
                             <button type='submit' className="block w-fit text-white font-semibold bg-gradient-to-l from-secondary to-tetiary px-10 py-2 rounded-sm ml-auto mr-auto">Submit</button>
                         </div>
+
+                        <img className="absolute w-5 h-auto left-[-0.5rem] bottom-[8rem] " src={star2}/>
+                        <img className="absolute  bottom-0 right-[-4rem] w-5 h-auto" src={star3}/>
                     </form>
                     
 

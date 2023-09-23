@@ -89,14 +89,14 @@ import { useState, useEffect } from "react";
         <div>
             <div>
                 <div className="flex items-center  w-screen h-screen px-20">
-                    <div className="relative w-auto h-[80vh]">
+                    <div className="relative h-auto w-[50vw]">
                         <img className="absolute left-[4rem] top-[2rem] w-5 h-auto" src={star1} />
                         <img className="absolute bottom-[4rem] right-[5rem] w-5 h-auto" src={star2} />
                         <img className="absolute bottom-0 left-[7rem] w-5 h-auto" src={star3} />
                         <img src={image}/>
                     </div>
 
-                    <div className="relative bg-tetiary bg-opacity-[12%] shadow-sm h-fit w-6/12 mr-20 py-10 px-14 rounded-lg">
+                    <div className="relative bg-tetiary bg-opacity-[12%] shadow-sm h-fit  mr-20 w-6/12 py-10 px-14 rounded-lg">
                         <img className="absolute w-5 h-auto top-[1rem] right-[10rem]" src={star3}/>
                         <h1 className="text-xl text-tetiary font-semibold pb-5">Register</h1>
                         <p className="pb-2 text-sm">
@@ -105,44 +105,44 @@ import { useState, useEffect } from "react";
 
                         <h1 className="text-xl font-semibold uppercase pb-3">Create your account</h1>
 
-                        <form onSubmit={handleSubmit} className="w-full grid gap-4">
-                            <div className="flex justify-between">
-                                <div className="grid gap-1">
+                        <form onSubmit={handleSubmit} className="w-full grid gap-4 ">
+                            <div className="relative gap-4 flex w-full">
+                                <div className="grid gap-1 w-full">
                                     <label className="text-xs">Team's name</label>
-                                    <input required onChange={handleInput} value={formData.team_name} name="team_name" type="text" placeholder="Enter the name of your group" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-[12rem]"/>
+                                    <input required onChange={handleInput} value={formData.team_name} name="team_name" type="text" placeholder="Enter the name of your group" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-full"/>
                                 </div>
 
-                                <div className="grid gap-1">
+                                <div className="grid gap-1 w-full">
                                     <label className="text-xs">Phone</label>
-                                    <input required onChange={handleInput} value={formData.phone_number} name='phone_number' type="tel" placeholder="Enter your phone number" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-[12rem]"/>
+                                    <input required onChange={handleInput} value={formData.phone_number} name='phone_number' type="tel" placeholder="Enter your phone number" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-full"/>
                                 </div>
                             </div>
 
-                            <div className="flex justify-between">
-                                <div className="grid gap-1">
+                            <div className="flex gap-4 w-full">
+                                <div className="grid gap-1 w-full">
                                     <label className="text-xs">Email</label>
-                                    <input required onChange={handleInput} value={formData.email} name='email' type="email" placeholder="Enter your email" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-[12rem]"/>
+                                    <input required onChange={handleInput} value={formData.email} name='email' type="email" placeholder="Enter your email" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-full"/>
                                 </div>
 
-                                <div className="grid gap-1">
+                                <div className="grid gap-1 w-full">
                                     <label className="text-xs">Project Topic</label>
-                                    <input required onChange={handleInput} value={formData.project_topic} name='project_topic' type="text" placeholder="what is your group project topic" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-[12rem]"/>
+                                    <input required onChange={handleInput} value={formData.project_topic} name='project_topic' type="text" placeholder="what is your group project topic" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-full"/>
                                 </div>
                             </div>
 
-                            <div className="flex justify-between">
-                                <div className="grid gap-1">
+                            <div className="flex w-full gap-4">
+                                <div className="grid gap-1 w-full">
                                     <label className="text-xs">Category</label>
-                                    <select required onChange={handleInput} value={formData.category} name='category' placeholder="Enter the name of your team" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-[12rem]">
+                                    <select required onChange={handleInput} value={formData.category} name='category' placeholder="Enter the name of your team" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-full">
                                         {data.map((list, index) => (
                                             <option key={index} value={list.id}>{list.name}</option>
                                         ))}
                                     </select>
                                 </div>
 
-                                <div className="grid gap-1">
+                                <div className="grid gap-1 w-full">
                                     <label required className="text-xs">Group Size</label>
-                                    <select onChange={handleInput} value={formData.group_size} name='group_size' placeholder="Enter the name of your team" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-[12rem]">
+                                    <select onChange={handleInput} value={formData.group_size} name='group_size' placeholder="Enter the name of your team" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-full">
                                         <option>Select</option>
                                         <option value={1}>1</option>
                                         <option value={2}>2</option>
