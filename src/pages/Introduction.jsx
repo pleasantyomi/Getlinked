@@ -10,7 +10,7 @@ const Introduction = () => {
                 </div>
 
                 <div>
-                    <h1 className="grid font-bold text-3xl pb-3 lg:pt-0 pt-10 lg:text-left text-center">
+                    <h1 className="grid font-bold lg:text-3xl text-xl lg:leading-10 leading-6  pb-3 lg:pt-0 pt-10 lg:text-left text-center">
                         <span className="">Introduction to getlinked</span>
                         <span className="text-tetiary">techHackathon 1.0</span>
                     </h1>

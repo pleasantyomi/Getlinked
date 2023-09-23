@@ -16,20 +16,16 @@ const Hero = () => {
             <div className="lg:flex text-white lg:pl-20">
                 <div className="lg:w-6/12 lg:pt-32 pt-5">
                     <div className="lg:hidden block pb-12">
-                        <h1 className="font-semibold italic text-2xl text-center ml-auto mr-auto pt-1">Igniting a Revolution in HR Innovation</h1>
+                        <h1 className="font-semibold italic text-lg text-center ml-auto mr-auto pt-1">Igniting a Revolution in HR Innovation</h1>
                         <img className="absolute right-[1.5rem] w-4/12" src={line}/>
                     </div>
-                    <div className="lg:flex lg:items-end font-bold lg:text-[60px] text-[40px] leading-none">
+                    <div className="lg:flex lg:items-end font-bold lg:text-[60px] text-[30px] leading-none">
                         <div className="relative">
-                          <img className="absolute lg:w-10 w-6 h-auto lg:top-[-3rem] top-[-1.5rem] right-[8rem]" src={creative} />
+                          <img className="absolute lg:w-10 w-6 h-auto lg:top-[-3rem] lg:right-[8rem] top-[-1.5rem] right-[6rem]" src={creative} />
                           <h1 className="block ml-auto mr-auto text-center lg:text-left">getlinked Tech Hackathon <span className="text-tetiary">1.0</span> </h1>
-                          <img className="absolute w-14 h-auto bottom-[0rem] right-[4.5rem]" src={chain}/>
-                          <img className="absolute w-10 h-auto bottom-[0.5rem] right-[2rem]" src={spark}/>
+                          <img className="absolute hidden w-14 h-auto bottom-[0rem] right-[4.5rem]" src={chain}/>
+                          <img className="absolute hidden w-10 h-auto bottom-[0.5rem] right-[2rem]" src={spark}/>
                         </div>
-
-                        {/* <div className="">
-                          
-                        </div> */}
                     </div>
 
                     <p className="text-base w-9/12 lg:mt-5 mt-3 text-center ml-auto mr-auto block lg:text-left lg:ml-0 lg:mr-0">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>

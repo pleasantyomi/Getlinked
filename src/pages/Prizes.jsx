@@ -14,7 +14,7 @@ const Prizes = () => {
                 <div className="">
                     <div className="lg:pl-20">
                         
-                    <h1 className="grid font-bold leading-10 text-3xl lg:pb-5 pb-2 lg:text-left text-center">
+                    <h1 className="grid font-bold lg:text-3xl text-xl lg:leading-10 leading-6  lg:pb-5 pb-2 lg:text-left text-center">
                         <span>Prizes and</span>
                         <span className="text-tetiary">Rewards</span>
                     </h1>

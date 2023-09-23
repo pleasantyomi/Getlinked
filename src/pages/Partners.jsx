@@ -10,7 +10,7 @@ const Partners = () => {
         <div>
             <div className="py-10">
                 <div className="pb-10">
-                    <h1 className="font-bold text-3xl text-center lg:pb-0 pb-2">Partners and Sponsors</h1>
+                    <h1 className="font-bold lg:text-3xl text-xl lg:leading-10 leading-6  text-center lg:pb-0 pb-2">Partners and Sponsors</h1>
                     <p className="text-center text-sm lg:w-4/12 w-10/12 ml-auto mr-auto">Getlinked Hackathon 1.0 is honored to have the following major companies as its partners and sponsors</p>
                 </div>
 

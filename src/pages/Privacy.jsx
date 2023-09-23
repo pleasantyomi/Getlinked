@@ -8,7 +8,7 @@ const Privacy = () => {
             <div className="lg:px-20 py-10 lg:mb-32 mb-40">
                 <div className="lg:flex">
                     <div className="lg:px-20 ">
-                       <h1 className="grid font-bold leading-10 text-3xl pb-1lg:text-left text-center">
+                       <h1 className="grid font-bold lg:text-3xl text-xl lg:leading-10 leading-6 pb-1 lg:text-left text-center">
                            <span>Privacy Policy and </span>
                            <span className="text-tetiary">Terms</span>
                        </h1>

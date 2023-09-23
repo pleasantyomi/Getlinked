@@ -10,7 +10,7 @@ const Guidelines = () => {
             <div className="lg:flex lg:items-center lg:px-20 lg:pb-0 pb-10">
                 <img className="lg:hidden block ml-auto mr-auto" src={sitting}/>
                 <div className="lg:px-20">
-                    <h1 className="grid font-bold leading-10 text-3xl pb-5 lg:text-left text-center">
+                    <h1 className="grid font-bold lg:text-3xl text-xl lg:leading-10 leading-6  pb-5 lg:text-left text-center">
                         <span>Rules and</span>
                         <span className="text-tetiary">Guidelines</span>
                     </h1>

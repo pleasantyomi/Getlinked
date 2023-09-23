@@ -9,7 +9,7 @@ const Judging = () => {
                 </div>
 
                 <div>
-                    <h1 className="grid font-bold text-3xl pb-3 lg:text-left text-center">
+                    <h1 className="grid font-bold lg:text-3xl text-xl lg:leading-10 leading-6  pb-3 lg:text-left text-center ">
                         <span>Judging Criteria</span>
                         <span className="text-tetiary">Key attributes</span>
                     </h1>

@@ -17,7 +17,7 @@ const Faq = () => {
         <div>
             <div className="lg:flex lg:items-center py-10 lg:mx-20">
                 <div className=" grid gap-5 lg:px-20 ">
-                   <h1 className="grid font-bold leading-10 text-3xl lg:pb-5 lg:text-left text-center">
+                   <h1 className="grid font-bold lg:text-3xl text-xl lg:leading-10 leading-6  lg:pb-5 lg:text-left text-center">
                         <span>Frequently Ask</span>
                         <span className="text-tetiary">Question</span>
                     </h1>
