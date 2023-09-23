@@ -1,11 +1,12 @@
 /* eslint-disable no-unused-vars */
 import flare1 from '../assets/Purple-Lens-Flare-PNG.png'
-import metrix from '../assets/metrix 1.png'
+import metrix from '../assets/metrix1.png'
 import chain from '../assets/chain-9365116-7621444.png'
-import creative from '../assets/Creative 1.png'
+import creative from '../assets/Creative1.png'
 import spark from '../assets/1f4a5.png'
-import man from '../assets/man-wearing-smart-glasses-touching-virtual-screen 1.png'
-import world from '../assets/Image 1.png'
+import line from '../assets/Vector4.png'
+import man from '../assets/man-wearing-smart-glasses-touching-virtual-screen1.png'
+import world from '../assets/Image1.png'
 
 
 const Hero = () => {
@@ -13,15 +14,21 @@ const Hero = () => {
         <div className="lg:relative overflow-hidden">
             <img className="absolute right-0" src={metrix} />
             <div className="lg:flex text-white lg:pl-20">
-                <div className="lg:w-6/12 lg:pt-32 pt-10">
+                <div className="lg:w-6/12 lg:pt-32 pt-5">
+                    <div className="lg:hidden block pb-12">
+                        <h1 className="font-semibold italic text-2xl text-center ml-auto mr-auto pt-1">Igniting a Revolution in HR Innovation</h1>
+                        <img className="absolute right-[1.5rem] w-4/12" src={line}/>
+                    </div>
                     <div className="lg:flex lg:items-end font-bold lg:text-[60px] text-[40px] leading-none">
-                        <div className="">
+                        <div className="relative">
+                          <img className="absolute lg:w-10 w-6 h-auto lg:top-[-3rem] top-[-1.5rem] right-[8rem]" src={creative} />
                           <h1 className="block ml-auto mr-auto text-center lg:text-left">getlinked Tech Hackathon <span className="text-tetiary">1.0</span> </h1>
+                          <img className="absolute w-14 h-auto bottom-[0rem] right-[4.5rem]" src={chain}/>
+                          <img className="absolute w-10 h-auto bottom-[0.5rem] right-[2rem]" src={spark}/>
                         </div>
 
                         {/* <div className="">
-                            <img className="w-10 h-auto" src={chain}/>
-                            <img className="w-10 h-auto" src={spark}/>
+                          
                         </div> */}
                     </div>
 
@@ -36,10 +43,21 @@ const Hero = () => {
                     </p>
                 </div>
 
-                <div className="relative">
-                    <img src={man}/>
-                    <img className="absolute top-0 right-0" src={world} />
+                <div>
+                    <div className="relative">
+                        <div className="hidden lg:block ">
+                            <h1 className="font-semibold italic text-2xl text-end pr-10 pt-1">Igniting a Revolution in HR Innovation</h1>
+                            <img className="absolute right-[2.5rem] w-3/12" src={line}/>
+                        </div>
+                      
+                       <div className="relative pt-5">
+                          <img src={man}/>
+                          <img className="absolute top-0 right-0" src={world} />
+                       </div>
+                    </div>
                 </div>
+
+                
             </div>
 
 

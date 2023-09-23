@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
-import image from '../assets/cwok_casual_21 1.png'
+import image from '../assets/cwok_casual.png'
 
 const Faq = () => {
 

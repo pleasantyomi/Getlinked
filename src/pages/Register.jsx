@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import axios from 'axios';
-import image from  '../assets/3d-graphic-designer-showing-thumbs-up-png 1 (1).png'
+import image from  '../assets/3d-graphic-designer-showing-thumbs-up-png.png'
 import star1 from '../assets/satagra.png'
 import star2 from '../assets/starpu.png'
 import star3 from '../assets/star.png'

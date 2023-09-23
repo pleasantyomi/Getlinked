@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
-import liberty from '../assets/Liberty company logo white.png'
+import liberty from '../assets/Libertycompanylogowhite.png'
 import playbox from '../assets/Paybox.png'
-import winwise from '../assets/Winwise logo White colour 1.png'
-import wisper from '../assets/wisper logo white.png'
-import liberty1 from '../assets/Liberty company logo white colour.png'
+import winwise from '../assets/WinwiselogoWhitecolour 1.png'
+import wisper from '../assets/wisperlogowhite.png'
+import liberty1 from '../assets/Libertycompanylogowhitecolour.png'
 
 const Partners = () => {
     return ( 

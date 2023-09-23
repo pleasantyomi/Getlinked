@@ -1,13 +1,13 @@
 import "./Header.css"
 import { useState } from "react";
-import close from '../assets/Vector (3).png'
+import close from '../assets/Vector(3).png'
 
 const Header = () => {
     const [open, isOPen] = useState(false)
 
 
     return ( 
-        <div className="w-screen">
+        <div className="relative w-screen">
             <div className="flex justify-between items-center lg:px-20 px-10 pt-5">
                 <div className="mr-44">
                     <a href="/" className="font-bold text-[24px] text-secondaryText">
@@ -38,7 +38,7 @@ const Header = () => {
 
             <div className="lg:hidden">
                <div className={open? "showMenuNav": "hideMenuNav"}>
-                    <div className="text-white font-semibold tetx-lg grid pt-8 pl-14 gap-5">
+                    <div className="bg-primary w-screen text-white font-semibold text-lg grid pt-8 pl-14 gap-5">
                         <div className="relative pb-14">
                            <button onClick={()=> isOPen(false)} className="block h-10 w-10 rounded-full border border-tetiary absolute right-0 mr-10 mb-10">
                               <img className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 h-3 w-3" src={close}/>

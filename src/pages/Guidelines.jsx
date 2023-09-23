@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
-import sitting from '../assets/7450159 1.png'
+import sitting from '../assets/74501591.png'
 import flare1 from '../assets/Purple-Lens-Flare-PNG.png'
 
 

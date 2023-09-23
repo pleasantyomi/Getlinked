@@ -1,7 +1,7 @@
-import lhs from '../assets/9486889 1.png'
-import gold from '../assets/gold_medal 1.png'
-import silver from '../assets/silver_medal 1.png'
-import bronze from '../assets/bronze_medal 1.png'
+import lhs from '../assets/94868891.png'
+import gold from '../assets/gold_medal.png'
+import silver from '../assets/silver_medal1.png'
+import bronze from '../assets/bronze_medal1.png'
 
 const Prizes = () => {
     return ( 

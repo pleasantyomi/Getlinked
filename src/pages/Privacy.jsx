@@ -1,6 +1,6 @@
-import image1 from '../assets/Vector (4).png'
-import image2 from '../assets/08 1.png'
-import icon from '../assets/list terms.png'
+import image1 from '../assets/Vector(4).png'
+import image2 from '../assets/081.png'
+import icon from '../assets/listterms.png'
 
 const Privacy = () => {
     return ( 
