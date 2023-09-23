@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import axios from 'axios';
 import image from  '../assets/3d-graphic-designer-showing-thumbs-up-png 1 (1).png'
-import star1 from '../assets/sata gra.png'
-import star2 from '../assets/star pu.png'
+import star1 from '../assets/satagra.png'
+import star2 from '../assets/starpu.png'
 import star3 from '../assets/star.png'
 import { useState, useEffect } from "react";
 
