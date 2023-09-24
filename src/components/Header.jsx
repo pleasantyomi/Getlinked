@@ -1,6 +1,7 @@
 import "./Header.css"
 import { useState } from "react";
 import close from '../assets/close.png'
+import hamburger from '../assets/hamburger.png'
 
 const Header = () => {
     const [open, isOPen] = useState(false)
@@ -28,9 +29,7 @@ const Header = () => {
                 </div>
 
                 <button onClick={()=> isOPen(prev => !prev)} className="lg:hidden grid gap-1 relative">
-                    <div className="bg-white w-[10px] h-1 items-start"></div>
-                    <div className="bg-white w-[20px] h-1"></div>
-                    <div className="bg-white w-[10px] h-1 "></div>
+                    <img src={hamburger}/>
                 </button>
             </div>
 

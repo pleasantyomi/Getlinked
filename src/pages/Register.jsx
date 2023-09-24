@@ -4,6 +4,7 @@ import image from  '../assets/3d-graphic-designer-showing-thumbs-up-png.png'
 import star1 from '../assets/satagra.png'
 import star2 from '../assets/starpu.png'
 import star3 from '../assets/star.png'
+import star5 from '../assets/starp.png'
 import { useState, useEffect } from "react";
 
 /* Gets Category from Api */
@@ -88,17 +89,19 @@ import { useState, useEffect } from "react";
     return ( 
         <div>
             <div>
-                <div className="flex items-center  w-screen h-screen px-20">
-                    <div className="relative h-auto w-[50vw]">
-                        <img className="absolute left-[4rem] top-[2rem] w-5 h-auto" src={star1} />
-                        <img className="absolute bottom-[4rem] right-[5rem] w-5 h-auto" src={star2} />
-                        <img className="absolute bottom-0 left-[7rem] w-5 h-auto" src={star3} />
+                <div className="lg:flex lg:items-center  w-screen h-fit lg:py-20 py-10 lg:px-20 px-10">
+                    <h1 className="text-xl text-tetiary font-semibold pb-5 lg:hidden block">Register</h1>
+                    <div className="relative h-auto w-[50vw] ml-auto mr-auto">
+                        <img className="absolute lg:left-[4rem] lg:top-[2rem] right-[-2rem] top-[5rem] w-3 lg:w-5 h-auto" src={star1} />
+                        <img className="absolute lg:bottom-[4rem] lg:right-[5rem] right-[-6rem] bottom-[-24rem] w-3 lg:w-5 h-auto" src={star2} />
+                        <img className="lg:block hidden absolute bottom-0 left-[7rem] w-5 h-auto" src={star3} />
+                        <img className="absolute w-3 h-auto left-[-6rem] bottom-[-8rem]" src={star5}/>
                         <img src={image}/>
                     </div>
 
-                    <div className="relative bg-tetiary bg-opacity-[12%] shadow-sm h-fit  mr-20 w-6/12 py-10 px-14 rounded-lg">
-                        <img className="absolute w-5 h-auto top-[1rem] right-[10rem]" src={star3}/>
-                        <h1 className="text-xl text-tetiary font-semibold pb-5">Register</h1>
+                    <div className="relative lg:bg-tetiary lg:bg-opacity-[12%] shadow-sm h-fit  lg:mr-20 lg:w-6/12 py-10 lg:px-14 rounded-lg">
+                        <img className="lg:block hidden absolute w-5 h-auto top-[1rem] right-[10rem]" src={star3}/>
+                        <h1 className="hidden lg:block text-xl text-tetiary font-semibold pb-5">Register</h1>
                         <p className="pb-2 text-sm">
                             <span>Be a part of this movement</span>
                         </p>
@@ -106,7 +109,7 @@ import { useState, useEffect } from "react";
                         <h1 className="text-xl font-semibold uppercase pb-3">Create your account</h1>
 
                         <form onSubmit={handleSubmit} className="w-full grid gap-4 ">
-                            <div className="relative gap-4 flex w-full">
+                            <div className="relative gap-4 lg:flex grid w-full">
                                 <div className="grid gap-1 w-full">
                                     <label className="text-xs">Team's name</label>
                                     <input required onChange={handleInput} value={formData.team_name} name="team_name" type="text" placeholder="Enter the name of your group" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-full"/>
@@ -118,7 +121,7 @@ import { useState, useEffect } from "react";
                                 </div>
                             </div>
 
-                            <div className="flex gap-4 w-full">
+                            <div className="lg:flex grid gap-4 w-full">
                                 <div className="grid gap-1 w-full">
                                     <label className="text-xs">Email</label>
                                     <input required onChange={handleInput} value={formData.email} name='email' type="email" placeholder="Enter your email" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-full"/>
@@ -140,7 +143,7 @@ import { useState, useEffect } from "react";
                                     </select>
                                 </div>
 
-                                <div className="grid gap-1 w-full">
+                                <div className="grid gap-1 w-7/12">
                                     <label required className="text-xs">Group Size</label>
                                     <select onChange={handleInput} value={formData.group_size} name='group_size' placeholder="Enter the name of your team" className="text-[10px] py-2 pl-2 bg-transparent rounded-sm outline outline-[1px] outline-white w-full">
                                         <option>Select</option>
@@ -173,7 +176,7 @@ import { useState, useEffect } from "react";
                                <input type="checkbox" name='privacy_poclicy_accepted' checked={formData.privacy_policy_accepted} onChange={handleInput} required/>
                                <label className="text-xs">I agreed with the event terms and conditions and privacy policy</label>
                             </div>
-                            <button type='submit' className="block w-full mt-5 text-white font-semibold bg-gradient-to-l from-secondary to-tetiary px-10 py-2 rounded-sm">Register Now</button>
+                            <button type='submit' className="block lg:w-full mt-5 ml-auto mr-auto text-white font-semibold bg-gradient-to-l from-secondary to-tetiary px-10 py-2 rounded-sm">Register Now</button>
                         </div>
                         </form>
 

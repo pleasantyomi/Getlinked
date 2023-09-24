@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import axios from 'axios';
 import facebook from '../assets/facebook.png'
 import x from '../assets/x.png'
@@ -6,6 +7,8 @@ import instagram from '../assets/ig.png'
 import star1 from '../assets/satagra.png'
 import star2 from '../assets/starpu.png'
 import star3 from '../assets/star.png'
+import star5 from '../assets/starp.png'
+import group from '../assets/dancing.png'
 import star4 from '../assets/staroutlin.png'
 import { useState, useEffect } from "react";
 
@@ -79,10 +82,11 @@ const Contact = () => {
     return ( 
         <div>
             <div>
-                <div className="flex items-center justify-between w-screen h-screen px-20 text-sm">
+                <div className="lg:flex items-center justify-between w-screen h-fit lg:px-20 px-10 lg:py-20 py-0 text-sm">
                     <div className="relative px-20 pl-20">
                         <img className="absolute top-[-8rem] left-[6rem] w-5-h-auto" src={star1}/>
                         <img className="absolute w-5 h-auto left-[30rem] top-[5rem]" src={star4}/>
+                        <div className="hidden lg:grid">
                         <h1 className="font-bold text-tetiary text-2xl pb-8 ">Get in touch</h1>
                         <p className="grid leading-none pb-5">
                             <span>Contact</span>
@@ -106,13 +110,25 @@ const Contact = () => {
                             <img className="w-auto h-5"src={linkedin}/>
 
                         </div>
+
+                        </div>
+
+                        
                     </div>
 
-                    <form  className="relative bg-tetiary bg-opacity-[12%] h-fit w-5/12 mr-20 py-10 px-14 rounded-lg" onSubmit={handleSubmit}>
-                        <img className="absolute top-[-4rem] w-5 h-auto right-[2rem]" src={star3} />
+                    <form  className="relative lg:bg-tetiary lg:bg-opacity-[12%] h-fit lg:w-5/12 lg:mr-20 lg:py-10 py-20  lg:px-14 rounded-lg" onSubmit={handleSubmit}>
+                        <img className="lg:hidden block w-7 h-auto absolute top-[1rem] left-0" src={group} />
+                        <img className="lg:hidden block w-3 h-auto absolute top-[3rem] left-[10rem]" src={star1} />
+                        <img className="lg:hidden block  w-3 h-auto absolute top-[6rem] right-[4rem]" src={star5} />
+
+                        <img className="hidden lg:block absolute top-[-4rem] w-5 h-auto right-[2rem]" src={star3} />
                         <div>
                             <h1 className="grid text-xl text-tetiary font-semibold pb-5">
-                                <span>Questions or need assistance?</span>
+                                <div className="lg:block grid">
+                                    <span>Questions or need </span>
+                                    <span>assistance?</span>
+
+                                </div>
                                 <span>Let us know  about it!</span>
                             </h1>
 
@@ -136,10 +152,23 @@ const Contact = () => {
                             <button type='submit' className="block w-fit text-white font-semibold bg-gradient-to-l from-secondary to-tetiary px-10 py-2 rounded-sm ml-auto mr-auto">Submit</button>
                         </div>
 
-                        <img className="absolute w-5 h-auto left-[-0.5rem] bottom-[8rem] " src={star2}/>
-                        <img className="absolute  bottom-0 right-[-4rem] w-5 h-auto" src={star3}/>
+                        <img className="absolute w-3 lg:w-5 h-auto left-[-0.5rem] lg:bottom-[8rem] bottom-[3rem] " src={star2}/>
+                        <img className="absolute  lg:bottom-0 lg:right-[-4rem] right-[-1rem] bottom-[10rem] w-3 lg:w-5 h-auto" src={star3}/>
+
+                        <div className="grid lg:hidden pt-10">
+                           <p className="font-semibold text-lg text-tetiary mb-2 text-center">Share on</p>
+                           <div className="flex items-center justify-center gap-5">
+                            <img className="w-auto h-5" src={instagram} />
+                            <img className="w-auto h-5" src={x}/>
+                            <img className="w-auto h-5" src={facebook}/>
+                            <img className="w-auto h-5"src={linkedin}/>
+
+                          </div>
+                        </div>
                     </form>
                     
+                    
+                  
 
                 </div>
             </div>
