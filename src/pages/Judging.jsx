@@ -1,11 +1,19 @@
+/* eslint-disable no-unused-vars */
 import image from '../assets/80465541.png'
+import star1 from '../assets/satagra.png'
+import star2 from '../assets/starpu.png'
+import star3 from '../assets/star.png'
+import star4 from '../assets/starp.png'
 
 const Judging = () => {
     return ( 
         <div>
             <div className="lg:flex lg:items-center lg:ml-10 lg:mr-32 py-10">
-                <div className="lg:pr-10 lg:flex-shrink-0 lg:flex-nowrap lg:mt-20 mt-10">
+                <div className="relative lg:pr-10 lg:flex-shrink-0 lg:flex-nowrap lg:mt-20 mt-10">
+                    <img className="w-3 lg:w-5 h-auto absolute top-[-4rem] left-[10rem]" src={star1}/>
+                    <img className="w-3 lg:w-5 h-auto absolute lg:top-[18rem] lg:left-[24rem] top-[10rem] left-[15rem]" src={star4}/>
                     <img className="lg:h-[80vh] lg:w-auto w-10/12 h-auto block ml-auto mr-auto lg:ml-0 lg:mr-0" src={image} />
+                    <img className="w-3 lg:w-5 h-auto absolute lg:bottom-0 right-[2rem] bottom-[-45rem]" src={star3}/>
                 </div>
 
                 <div>

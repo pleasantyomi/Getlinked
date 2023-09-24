@@ -1,14 +1,24 @@
+/* eslint-disable no-unused-vars */
 import facebook from '../assets/facebook.png'
 import x from '../assets/x.png'
 import linkedin from '../assets/ri_linkedin-fill.png'
 import instagram from '../assets/ig.png'
 import location from '../assets/location.png'
 import contact from '../assets/Group.png'
+import star1 from '../assets/satagra.png'
+import star2 from '../assets/starpu.png'
+import star3 from '../assets/star.png'
+import star4 from '../assets/starp.png'
 
 const Footer = () => {
     return ( 
-        <div className="bg-footer w-screen h-fit py-5 lg:px-20 px-10 text-white">
-            <div className="lg:flex grid gap-10 lg:gap-0 justify-between">
+        <div className="relative bg-footer py-5 px-10 lg:px-20  text-white">
+            <img className="absolute w-3 h-auto top-[4rem] left-[1rem] lg:left-[3rem]" src={star3}/>
+            <img className="absolute w-3 h-auto lg:bottom-[4rem] bottom-[8rem] lg:right-[6rem] right-[3rem]" src={star3}/>
+            <img className="absolute w-2 lg:w-3 h-auto lg:bottom-[4rem] bottom-[3rem] lg:right-[50rem] left-[6rem]" src={star1}/>
+            <img className="absolute  w-4 lg:w-3 h-auto lg:top-[4rem] lg:left-[50rem] left-[12rem] top-[22rem]" src={star4}/>
+
+            <div className="lg:flex grid gap-10 lg:gap-20 justify-center">
                 <div className="lg:w-4/12">
                    <h1 className="font-bold text-[24px] pb-2 text-secondaryText">
                         <span className="text-white">get</span>
@@ -57,7 +67,7 @@ const Footer = () => {
                             <p>+234 679 81819</p>
                         </div>
 
-                        <div className="flex items-center gap-2 w-5/12">
+                        <div className="flex items-center gap-2">
                             <img className="w-auto h-3" src={location}/>
                             <p>27, Alara street Yaba 100012 Lagos state</p>
                         </div>

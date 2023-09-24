@@ -1,13 +1,22 @@
+/* eslint-disable no-unused-vars */
 import image1 from '../assets/lock.png'
 import image2 from '../assets/081.png'
 import icon from '../assets/listterms.png'
+import star1 from '../assets/satagra.png'
+import star2 from '../assets/starpu.png'
+import star3 from '../assets/star.png'
+import star4 from '../assets/starp.png'
 
 const Privacy = () => {
     return ( 
         <div>
             <div className="lg:px-20 py-10 lg:mb-32 mb-40">
                 <div className="lg:flex">
-                    <div className="lg:px-20 ">
+                    <div className="relative lg:px-20 ">
+                        <img className="absolute w-3 lg:w-5 h-auto lg:top-[-0.5rem] lg:right-[14rem] right-[6rem] top-[-1rem]" src={star4} />
+                        <img className="absolute w-4 lg:w-5 h-auto lg:top-[4rem] top-[9rem] right-[4rem]" src={star1}/>
+                        <img className="absolute w-4 lg:w-5 h-auto lg:top-[29rem] top-[35rem] lg:left-0 left-[0.5rem]" src={star1}/>
+
                        <h1 className="grid font-bold lg:text-3xl text-xl lg:leading-10 leading-6 pb-1 lg:text-left text-center">
                            <span>Privacy Policy and </span>
                            <span className="text-tetiary">Terms</span>
@@ -49,8 +58,13 @@ const Privacy = () => {
                     </div>
 
                     <div className="relative flex-nowrap flex-shrink-0 px-20">
+                        <img className="w-3 h-auto absolute lg:top-[6rem] lg:right-[12rem] top-[5rem] right-[9rem]" src={star3}/>
+                        <img className="w-3 h-auto absolute lg:top-[29rem] lg:left-[12rem] left-[4rem] top-[3rem]" src={star1}/>
+                        <img className="w-3 h-auto absolute lg:top-[32rem] lg:left-[10rem] left-[7rem] top-[20rem]" src={star3}/>
+
                         <img className="lg:h-[70vh] lg:w-auto w-10/12 h-auto ml-auto mr-auto" src={image1}/>
-                        <img className="absolute lg:top-[12rem] top-[4.5rem] right-[6rem] lg:h-[70vh] lg:w-auto w-8/12 h-auto ml-auto mr-auto" src={image2}/>
+                        <img className="absolute lg:top-[12rem] top-[4rem] right-[6rem] lg:h-[70vh] lg:w-auto w-7/12 h-auto ml-auto mr-auto" src={image2}/>
+                        <img className="w-3 lg:w-5 h-auto absolute lg:bottom-[6rem] lg:right-[2rem] bottom-[-4rem] right-[4rem]" src={star4}/>
                     </div>
                 </div>
             </div>
