@@ -6,16 +6,16 @@ import Faq from "./FAQ"
 import Prizes from "./Prizes"
 import Partners from "./Partners"
 import Privacy from "./Privacy"
-// import Timeline from "./Timeline"
+import Timeline from "./Timeline"
 const Container = () => {
     return ( 
         <div>
              <Hero/>
              <Introduction/>
              <Guidelines/>
-              <Judging/>
+             <Judging/>
              <Faq/>
-             {/* <Timeline/> */}
+             <Timeline/>
              <Prizes/>
              <Partners/>
              <Privacy/> 

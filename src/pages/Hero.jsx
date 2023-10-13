@@ -30,16 +30,22 @@ const Hero = () => {
                             <img className="lg:w-5 w-2 h-auto absolute lg:left-[25rem] lg:top-[20rem] right-[5rem] bottom-[-8rem]" src={star4}/>
 
                             <div className="relative w-fit ml-auto mr-auto">
-                                <img className="absolute lg:w-10 w-6 h-auto lg:top-[-3rem] lg:right-[2rem] top-[-1.6rem] right-[0.5rem]" src={creative} />
-                                <h1 className="grid ml-auto mr-auto text-center lg:text-left">
-                                    <span>getlinked Tech</span>
-                                    <span>Hackathon <span className="text-tetiary">1.0</span> </span> 
-                                </h1>
+                                <img className="absolute lg:w-10 w-6 h-auto lg:top-[-3rem] lg:right-[6.5rem] top-[-1.6rem] right-[2.5rem]" src={creative} />
+                                <div className="grid ml-auto mr-auto text-center lg:text-left">
+                                    <div>
+                                       <span>getlinked Tech</span>
+                                    </div>
+
+                                    <div className="flex items-center gap-1">
+                                       <span>Hackathon <span className="text-tetiary">1.0</span> </span> 
+                                       <img className="lg:w-14 h-auto w-10" src={chain}/>
+                                       <img className="lg:w-10 h-auto w-7" src={spark}/>
+                                    </div>
+                                </div>
 
                             </div>
                           
-                          <img className="absolute hidden w-14 h-auto bottom-[0rem] right-[4.5rem]" src={chain}/>
-                          <img className="absolute hidden w-10 h-auto bottom-[0.5rem] right-[2rem]" src={spark}/>
+                   
                         </div>
                     </div>
 

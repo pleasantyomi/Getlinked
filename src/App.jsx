@@ -11,12 +11,12 @@ function App() {
 
   return (
     <>
-    <div className="relative bg-primary w-screen h-screen overflow-x-hidden font-main text-white">
+    <div className="bg-primary w-screen h-screen overflow-x-hidden font-main text-white">
       <Header/>
       <Routes>
          <Route path="/" element={<Container/>}/>
          <Route path="/Register" element={<Register/>}/>
-         <Route exact path="/Contact" element={<Contact/>}/>
+         <Route path="/Contact" element={<Contact/>}/>
       </Routes>
      
       <Footer/>
