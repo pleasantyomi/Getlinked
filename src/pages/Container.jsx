@@ -6,7 +6,7 @@ import Faq from "./FAQ"
 import Prizes from "./Prizes"
 import Partners from "./Partners"
 import Privacy from "./Privacy"
-//import Timeline from "./Timeline"
+
 const Container = () => {
     return ( 
         <div>
@@ -15,7 +15,6 @@ const Container = () => {
              <Guidelines/>
              <Judging/>
              <Faq/>
-             //<Timeline/>
              <Prizes/>
              <Partners/>
              <Privacy/> 
